@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Change Calculator</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Change Calculator</h1> 
+    <form id="change-calculator" name = "Change-Calculater">
+
+      <section id="userInput">
+    
+        <div>
+          <label for = "costField"> How much is due for this sale? </label>
+          <input class = "user-input" id = "amount-due" type = "text" value = "" name = "costField"/>
+        </div>
+        
+        <div>
+          <label for = "changeTenderedField"> How much has the customer given you? </label>
+          <input class = "user-input" id =  "amount-received" type = "text" value = "" name = "changeTenderedField" />
+        </div>
+    
+        <button id= "calculate-change" class="btn btn-primary"> Calculate </button>
+        
+    
+      </section>
+    
+      <section id = "dollars">
+        
+        <div>
+          <label class = change-label for = "numberofDollars"> Dollars</label>
+          <p id= "dollars-output" name = "numberOfDollars"> 0 </p>
+        </div>
+    
+      </section>
+        
+      <section id = "change">
+    
+        <div class = change-unit>
+          <label class = change-label for = "numberofQuarters"> Quarters</label>
+          <p id= "quarters-output" name = "numberofQuarters"> 0 </p>
+        </div>
+    
+        <div class = change-unit>
+          <label class = change-label for = "numberOfDimes"> Dimes</label>
+          <p id= "dimes-output" name = "numberOfDimes"> 0 </p>
+         </div>
+    
+        <div class = change-unit>
+          <label class = change-label font-weight = "bold" for = "numberOfNickels"> Nickels</label>
+          <p id= "nickels-output" name = "numberOfNickels"> 0 </p>
+        </div>
+    
+        <div class = change-unit>
+          <label class = change-label for = "numberOfPennies"> Pennies</label>
+          <p id= "pennies-output" name = "numberOfPennies"> 0 </p>
+        </div>
+    
+      </section>
+
+    </form>
+
+   
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src = "main.js"></script>
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+  </body>
+</html>

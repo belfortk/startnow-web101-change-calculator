@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  #userInput{
+    background-color: #deeff5;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    }
+    
+    
+    #dollars{
+      
+    align-content: center;
+    background-color: #e6e6e6;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+      
+      
+    }
+  
+    #change{
+    align-content: center;
+    background-color: #e6e6e6;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+  
+        }
+    
+    
+    .change-unit{
+      width: 25%;
+      float: left;
+      text-align: center;
+  
+    }
+    
+    .change-label {
+      
+      font-weight: bold;
+    }
+    
